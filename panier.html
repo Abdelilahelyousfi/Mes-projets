@@ -1,0 +1,87 @@
+
+<html>
+    <head>
+        <title>Panier</title>
+        <link rel="stylesheet" href="/panier.css">
+    
+    </head>
+
+    
+    <body >
+
+        <div class="container flex">
+            <div class="structure">
+              <h1>Panier</h1>
+          
+              <table id="table">
+                <thead>
+                  <tr>
+                    <th>Nom de l'article</th>
+                   
+                    <th>Quantité</th>
+                    <th>Price unitaire</th>
+                    <th>Sous total</th>
+                   
+                  </tr>
+                </thead>
+                <tbody id="all_products">
+                  <tr> 
+                    <td class="article--name"><div style="margin-right:1rem"><img src="images/whey.png" width="150" ></div> <div><h3>WHEY PROTEIN<h3/> <a class="remove" id="1">Supprimer</a></div></td>
+                  
+                      
+                      <td class="quantity"> 
+                        <button class="qty-minus" id="1">-</button>
+                        <input type="text" readonly placeholder="Unit price"  class="qty" value="1" >
+                        <button class="qty-plus" id="1">+</button>
+                      </td>
+                      <td class="price">15,99 €</td> 
+                      <td class="subtotal">0€</td>
+                  </tr>
+                  <tr> 
+                    <td class="article--name"><div style="margin-right:1rem"><img src="images/gants.png" width="150" ></div> <div><h3>GANTS DE MUSCU<h3/> <a class="remove" id="1">Supprimer</a></div></td>
+                  
+                      
+                      <td class="quantity"> 
+                        <button class="qty-minus" id="1">-</button>
+                        <input type="text" readonly placeholder="Unit price"  class="qty" value="1" >
+                        <button class="qty-plus" id="1">+</button>
+                      </td>
+                      <td class="price">49 €</td> 
+                      <td class="subtotal">0€</td>
+                  </tr>
+                  <tr> 
+                    <td class="article--name"><div style="margin-right:1rem"><img src="images/banc.png" width="150" ></div> <div><h3>BANC DE MUSCU<h3/> <a class="remove" id="1">Supprimer</a></div></td>
+                  
+                      
+                      <td class="quantity"> 
+                        <button class="qty-minus" id="1">-</button>
+                        <input type="text" readonly placeholder="Unit price"  class="qty" value="1" >
+                        <button class="qty-plus" id="1">+</button>
+                      </td>
+                      <td class="price">149 €</td> 
+                      <td class="subtotal">0€</td>
+                  </tr>
+                 
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td><input type="text" id="name_product" placeholder="Nom de l'article" contenteditable></td>
+                    <td><input  type="number" step="1" id="price_product" value="1000" contenteditable></td>
+                    <td></td>
+                    
+                    <td><button type="button" id="add_button">Ajouter un article</button></td>
+                  </tr>
+                </tfoot>
+              </table>
+              <h2>Total : <span id="total_display">€</span></h2>
+            </div>
+          </div>
+          
+          
+          <script src="panier.js">
+    
+          </script>
+        
+    </body>
+  
+</html>
