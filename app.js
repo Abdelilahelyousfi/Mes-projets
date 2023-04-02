@@ -13,11 +13,11 @@ const products = [
         colors: [
             {
                 code:"black",
-                img:"/images/whey.png",
+                img:"images/whey.png",
             },
             {
                 code: "white",
-                img: "./images/wheyblanc.png",
+                img: "images/wheyblanc.png",
             },
         ],
     },
@@ -29,11 +29,11 @@ const products = [
         colors: [
            {
                 code:"black",
-                img:"/images/banc.png",
+                img:"images/banc.png",
            },
            {
             code:"red",
-            img:"./images/bancrouge.png"
+            img:"images/bancrouge.png"
            },
         ],
     },
@@ -45,11 +45,11 @@ const products = [
         colors: [
             {
                 code:"black",
-                img:"/images/gants.png",
+                img:"images/gants.png",
            },
            {
             code:"violet",
-            img:"./images/gants muscu violet.png",
+            img:"images/gants muscu violet.png",
            },
         ],
     },
@@ -124,6 +124,3 @@ close .addEventListener("click",()=>{
 })
 
 
-
-
-    
